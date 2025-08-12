@@ -10,10 +10,10 @@ app.use(cors());
 
 // Database credentials - make sure you don't store sensitive information here in plain text!
 const db = mysql.createConnection({
-    host: 'MYSQL_HOST',
-    user: 'MYSQL_USER',
-    password: 'MYSQL_PASSWORD',
-    database: 'MYSQL_DATABASE',
+    host: 'project-serpent-surge.ccr686q44lot.us-east-1.rds.amazonaws.com',
+    user: 'admin',
+    password: 'Strongpassword',
+    database: 'serpent_surge_db',
     port: '3306',
 });
 
